@@ -1,0 +1,11 @@
+.clearfloats {
+    clear: both;
+}
+
+.display-table {
+    display: table;
+}
+
+.display-table-cell {
+    display: table-cell;
+}

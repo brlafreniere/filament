@@ -1,0 +1,40 @@
+body > header {
+    background-color: #000000;
+    color: #d1d1d1;
+    height: 100px;
+    width: 100%;
+    letter-spacing: -0.75px;
+    font-weight: 100;
+}
+    #main-header-container {
+        display: flex;
+        margin: 0 auto;
+        height: 100px;
+        justify-content: space-between;
+    }
+        #logo {
+            font-weight: 100;
+            margin: 0;
+            text-transform: uppercase;
+            text-align: left;
+            align-self: center;
+        }
+        #header-nav {
+            text-align: right;
+            text-transform: uppercase;
+            align-self: center;
+        }
+            #header-menu {
+                font-size: 1.4em;
+            }
+                #header-menu .menu-item:hover > ul {
+                    display: block;
+                }
+                    .sub-menu {
+                        display: none;
+                        position: absolute;
+                        z-index: auto;
+                        margin: 0;
+                        padding: 0;
+                        background-color: black;
+                    }

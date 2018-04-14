@@ -1,0 +1,55 @@
+@import url('css/single-property-classes.css');
+@import url('css/heading-styles.css');
+@import url('css/link-styles.css');
+@import url('css/grid-classes.css');
+
+@import url('css/site-header-styles.css');
+@import url('css/site-banner.css');
+@import url('css/site-footer-styles.css');
+
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+.content-box {
+    background-color: #0c0c0c;
+    box-shadow: 5px 5px 10px black;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.content-box > footer {
+    margin-top: 25px;
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+	min-height: 100%;
+}
+
+body {
+	min-height: 100%;
+    font-size: 16px;
+	font-family: 'Nunito Sans', sans-serif;
+    color: #d1d1d1;
+}
+    main {
+		display: flex;
+		flex-direction: column;
+		min-height: 100%;
+        min-height: 100%;
+        margin: 0px auto;
+        font-weight: 400;
+        margin-top: 50px;
+        padding: 25px;
+    }
+
+.horizontal-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.horizontal-menu li {
+    display: inline-block;
+    margin: 0px 15px;
+}
+
