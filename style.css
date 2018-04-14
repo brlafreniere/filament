@@ -1,55 +1,57 @@
-@import url('css/single-property-classes.css');
-@import url('css/heading-styles.css');
-@import url('css/link-styles.css');
-@import url('css/grid-classes.css');
-
-@import url('css/site-header-styles.css');
-@import url('css/site-banner.css');
-@import url('css/site-footer-styles.css');
-
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
-
-.content-box {
-    background-color: #0c0c0c;
-    box-shadow: 5px 5px 10px black;
-    padding: 25px;
-    margin-bottom: 25px;
-}
-
-.content-box > footer {
-    margin-top: 25px;
-}
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Text+Me+One');
 
 html {
-    margin: 0px;
-    padding: 0px;
-	min-height: 100%;
+    //min-height: 100vh;
 }
 
 body {
-	min-height: 100%;
     font-size: 16px;
-	font-family: 'Nunito Sans', sans-serif;
-    color: #d1d1d1;
+    width: 60%;
+    margin: 0 auto;
+    font-family: 'IBM Plex Mono', monospace;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
-    main {
-		display: flex;
-		flex-direction: column;
-		min-height: 100%;
-        min-height: 100%;
-        margin: 0px auto;
-        font-weight: 400;
-        margin-top: 50px;
-        padding: 25px;
-    }
 
-.horizontal-menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+main {
+    flex: 1;
 }
+
+a:link {
+    text-decoration: none;
+    color: black;
+    padding: 0px 2px;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #0fd7db;
+}
+a:active {
+    text-decoration: none;
+}
+
+#logo {
+    font-family: 'Text Me One', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    text-transform: uppercase;
+    font-size: 5em;
+    text-align: center;
+}
+
+#header-nav {
+    text-align: center;
+    font-family: 'Text Me One', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
 .horizontal-menu li {
     display: inline-block;
-    margin: 0px 15px;
 }
-
