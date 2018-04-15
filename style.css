@@ -1,8 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Text+Me+One');
+/*
+Theme Name: Filament
+Theme URI: 
+Author: Blaine Lafreniere
+Author URI: https://blainefreelance.com
+Description: Simple blog theme
+Version: 1.0
+Text Domain: filament
+*/
 
-html {
-    //min-height: 100vh;
-}
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Text+Me+One');
 
 body {
     font-size: 16px;
@@ -33,8 +39,8 @@ a:visited {
 }
 a:hover {
     text-decoration: none;
-    color: white;
-    background-color: #0fd7db;
+    color: black;
+    background-color: #d8c236;
 }
 a:active {
     text-decoration: none;
