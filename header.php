@@ -17,7 +17,7 @@
         <header>
             <h1 id='logo'>
                 <a href="<?= site_url(); ?>">
-                    <?php bloginfo('name'); ?>
+                    <?php echo str_replace(' ', '&nbsp;', bloginfo('name')); ?>
                 </a>
             </h1>
             <nav id='header-nav'>

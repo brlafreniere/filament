@@ -12,16 +12,23 @@ Text Domain: filament
 
 body {
     font-size: 16px;
-    width: 60%;
     margin: 0 auto;
+    width: 80%;
     font-family: 'IBM Plex Mono', monospace;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
 }
 
+@media screen and (min-width: 1441px) {
+    body {
+        width: 40%;
+    }
+}
+
 main {
     flex: 1;
+    font-size: 1.2em;
 }
 
 .post {
@@ -50,7 +57,7 @@ a:active {
     font-family: 'Text Me One', sans-serif;
     font-family: 'IBM Plex Mono', monospace;
     text-transform: uppercase;
-    font-size: 5em;
+    font-size: 4em;
     text-align: center;
 }
 
