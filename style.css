@@ -18,6 +18,10 @@ main {
     flex: 1;
 }
 
+.post {
+    margin-bottom: 150px;
+}
+
 a:link {
     text-decoration: none;
     color: black;
