@@ -27,6 +27,14 @@ body {
     }
 }
 
+#header-menu .menu-item:after {
+    content: " •";
+}
+
+#header-menu li:last-child:after {
+    content: none;
+}
+
 main {
     flex: 1;
     font-size: 1.2em;
