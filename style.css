@@ -44,6 +44,10 @@ main {
     margin-bottom: 150px;
 }
 
+div.post:last-of-type {
+    margin-bottom: 0px;
+}
+
 a:link {
     text-decoration: none;
     color: black;
