@@ -23,8 +23,13 @@ body {
 
 @media screen and (min-width: 1441px) {
     body {
-        width: 40%;
+        width: 50%;
     }
+}
+
+#header-menu {
+    margin: 10px 0px;
+    padding: 0;
 }
 
 #header-menu .menu-item:after {
@@ -41,7 +46,9 @@ main {
 }
 
 .post {
-    margin-bottom: 150px;
+    margin-bottom: 2.5em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid lightgray;
 }
 
 div.post:last-of-type {
@@ -66,20 +73,85 @@ a:active {
     text-decoration: none;
 }
 
+main a:link {
+    color: #2d99e5;
+}
+main a:visited {
+    color: #2d99e5;
+}
+main a:hover {
+    color: black;
+}
+main a:active {
+
+}
+
+pre {
+    background-color: #f2f2f2;
+    padding: 1em;
+    line-height: 1.5em;
+    border: 1px solid lightgray;
+}
+
 #logo {
     font-family: 'Text Me One', sans-serif;
     font-family: 'IBM Plex Mono', monospace;
     text-transform: uppercase;
-    font-size: 4em;
+    font-size: 4.5em;
     text-align: center;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 885px) {
+    #logo {
+        font-size: 2.9em;
+    }
+}
+
+@media screen and (max-width: 583px) {
+    #logo {
+        font-size: 2.3em;
+    }
+}
+
+body > header {
+    margin: 50px 0px;
+}
+
+.comment-body {
+    margin: 1em 0em;
+    padding: 1em;
+
+    background-color: #f4f4f4;
+}
+
+.comment-form label {
+    display: block;
+}
+
+.comment-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.comment-list .children {
+    list-style-type: none;
 }
 
 #header-nav {
     text-align: center;
     font-family: 'Text Me One', sans-serif;
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 2em;
+    font-size: 1.5em;
     text-transform: uppercase;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+@media screen and (max-width: 583px) {
+    #header-nav {
+        font-size: 1.2em;
+    }
 }
 
 .horizontal-menu li {
