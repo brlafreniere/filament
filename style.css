@@ -1,9 +1,9 @@
 /*
 Theme Name: Filament
-Theme URI: 
+Theme URI: https://blainefreelance.com/filament-theme
 Author: Blaine Lafreniere
 Author URI: https://blainefreelance.com
-Description: Simple blog theme
+Description: A simple blog theme.
 Version: 1.0
 Text Domain: filament
 */
@@ -20,6 +20,7 @@ body {
     flex-direction: column;
     line-height: 2.5em;
 }
+
 
 @media screen and (min-width: 1441px) {
     body {
