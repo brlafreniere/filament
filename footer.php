@@ -1,7 +1,7 @@
         </main>
         <footer style='text-align: center;'>
             <section id='copyright'>
-                &copy; 2016 blainefreelance.com
+                <?= get_theme_mod('copyright_text', ''); ?>
             </section>
         </footer>
         <?php wp_footer(); ?>
