@@ -28,6 +28,15 @@ body {
     }
 }
 
+code {
+    color: #4f4f4f;
+    background-color: #f7f7f7;
+    border: 1px solid lightgray;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+}
+
 #header-menu {
     margin: 10px 0px;
     padding: 0;
