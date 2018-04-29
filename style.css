@@ -125,7 +125,7 @@ pre {
 }
 
 body > header {
-    margin: 50px 0px;
+    margin-bottom: 50px;
 }
 
 .comment-body {
