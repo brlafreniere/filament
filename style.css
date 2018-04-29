@@ -8,23 +8,24 @@ Version: 1.0
 Text Domain: filament
 */
 
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Text+Me+One');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Text+Me+One|Roboto');
 
 body {
     font-size: 16px;
     margin: 0 auto;
     width: 80%;
     font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    line-height: 2.5em;
+    line-height: 1.7em;
 }
 
 
 @media screen and (min-width: 1441px) {
     body {
-        width: 50%;
+        width: 35%;
     }
 }
 
@@ -55,10 +56,31 @@ main {
     font-size: 1.2em;
 }
 
+main p {
+    text-align: justify;
+    font-size: 0.9em;
+    font-family: 'Roboto', sans-serif;
+    text-indent: 1em;
+    margin: 2em 0em;
+}
+
 .post {
     margin-bottom: 2.5em;
     padding-bottom: 1em;
     border-bottom: 1px solid lightgray;
+}
+
+.post header {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.post header h2 {
+    font-size: 1.4em;
+}
+
+.post footer {
+    text-align: center;
 }
 
 article.post:last-of-type {
