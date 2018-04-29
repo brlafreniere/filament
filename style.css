@@ -61,7 +61,7 @@ main {
     border-bottom: 1px solid lightgray;
 }
 
-div.post:last-of-type {
+article.post:last-of-type {
     margin-bottom: 0px;
 }
 
