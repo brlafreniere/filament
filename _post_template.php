@@ -1,4 +1,4 @@
-<section>
+<article>
     <header>
         <h2>
             <a href="<?= get_the_permalink(); ?>"><?= get_the_title(); ?></a>
@@ -12,4 +12,4 @@
     </div>
     <footer>
     </footer>
-</section>
+</article>
